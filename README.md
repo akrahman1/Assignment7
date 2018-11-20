@@ -1,1 +1,116 @@
-# Assignment7
+# Assignment7<!doctyphtml {
+  background-color: #1AA5A8;
+}
+
+
+h1 {
+  font-size: 65px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px 0;    
+  color: #00FF4E;
+  text-shadow: 2px 2px 1px black;
+}
+
+
+p, p1, p2, ul, h1, li {
+  color: whitesmoke;
+}
+
+body {
+  width: 650px;
+  margin: 0 auto;
+  background-color: #EF9325;
+  padding: 0 25px 25px 25px;
+  border: 10px solid black;
+}e html>
+
+<!-- Colleges			Abigail Rahman -->
+<!-- Website Home Page. -->
+<!-- ===================================== -->
+
+<html>
+<head>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<title> Herron School of Art and Design, Art Institute Of Indianapolis, and IUPUI</title>
+</head>
+
+
+<span>
+
+<h1> <b> Herron School of Art and Design, Art Institute Of Indianapolis, and Purdue University West Lafayette.</b> </h1>
+<p> This website shows the difference between these three schools. </p>
+</span>
+<hr>
+	<img src="ClassroomPhoto.png" alt="School Classroom Photo" height=600 width=900>
+        
+</div>
+
+<hr>
+<p1> These schools offer a wide varity of majors including </p1>
+  <ul> 
+      <li>Design</li>
+      <li>Painting</li>
+      <li>Drawing</li>
+    </ul>
+
+<title> Background color </title>
+
+<body>
+
+<title> Buttons </title>
+
+<input type="button" value="Herron School of Art and Design " onclick="Herron();">
+<div id="picParagraph"></div>
+
+<script>
+function Herron () {
+document.getElementById('picParagraph').innerHTML = 
+'<img src="http://1.bp.blogspot.com/-RiX3bImAU-k/VaoDi6AV8rI/AAAAAAAAExs/2ah6_-kmPTQ/s1600/herron_fb-786525.jpg" height=600 width=900 alt="Herron" <br> <p> Herron School of Art and Design was ranked 45th overall by U.S.<br> News and World Report among graduate schools of fine arts in 2008. <br> In addition, Herron School of Art and Design is the only accredited, <br> professional art and design school in the state of Indiana. <br> It was founded in 1902 by T.C. Steele. </p>';
+}
+</script>
+
+<hr>
+
+<input type="button" value="The Art Institute of Indianapolis " onclick="ArtInstitute();">
+<div id="picturePara2"></div>
+
+<script>
+function ArtInstitute() {
+document.getElementById('picParagraph').innerHTML = 
+'<img src="http://2013.globalgamejam.org/sites/default/files/site13_img/Aii.jpg" height=600 width=900 alt="Art Institue" <br> <p> The Art Institute of Indianapolis has an overall ranking of a C. However, many <br> students warn against going to any Art Institutes. Many former students state <br> it is a waste of time. In fact, the school lied about employment rates. In addition, <br> the US government sued The Art Institutes for a $11 billion dollars. However, Art <br> Institute of Chicago is considered to be one of the greatest art schools in the world. </p>';
+}
+</script>
+</div>
+<hr>
+
+<input type="button" value="West Lafayette" onclick="Lafayette();">
+<div id="picParagraph"></div>
+
+<script>
+function Lafayette() {
+document.getElementById('picParagraph').innerHTML = 
+'<img src="https://i.pinimg.com/736x/a3/92/83/a392832e49a38ce31b4c7a1733b7c924--purdue-university-indiana.jpg" height=600 width=900 alt="image"> <br> <p> Purdue University West Lafayette is ranked 114 in fine arts. West Lafayette is one <br> of more than 800 institutions with graduate schools surveyed by U.S. News on an annual <br> basis. The University offers degrees in Art History, Criticism and Conservation, Design and <br> Visual Communication, Fine/Studio Arts, Industrial and Product Design, Interior Design, <br> and Intermedia/Multimedia. </p>';
+}
+</script>
+
+</div>
+
+<hr>
+
+</body>
+</html>
+
+	
+	
+	
